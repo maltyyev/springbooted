@@ -1,0 +1,21 @@
+table {
+    border: 2px solid black;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+td {
+    border-right: 1px solid black;
+    text-align: center;
+    white-space: nowrap;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tbody > tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
