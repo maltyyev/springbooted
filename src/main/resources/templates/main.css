@@ -7,9 +7,12 @@ tr {
 }
 
 td {
-    border-right: 1px solid black;
     text-align: center;
     white-space: nowrap;
+}
+
+tbody td {
+    border-right: 1px solid black;
 }
 
 td:last-child {

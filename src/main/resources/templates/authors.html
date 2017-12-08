@@ -2,25 +2,25 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Books</title>
+    <title>Authors</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Book List</h1>
+    <h1>Author List</h1>
 
     <table>
         <thead>
             <tr>
                 <td>ID</td>
-                <td>Title</td>
-                <td>Publisher</td>
+                <td>First Name</td>
+                <td>Last Name</td>
             </tr>
         </thead>
         <tbody>
-            <tr th:each="book : ${books}">
-                <td th:text="${book.id}">123</td>
-                <td th:text="${book.title}">Spring in Action</td>
-                <td th:text="${book.publisher.name}">Wrox</td>
+            <tr th:each="author : ${authors}">
+                <td th:text="${author.id}">123</td>
+                <td th:text="${author.firstName}">Mike</td>
+                <td th:text="${author.lastName}">Yes</td>
             </tr>
         </tbody>
     </table>
