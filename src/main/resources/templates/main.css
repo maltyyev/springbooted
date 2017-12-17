@@ -4,6 +4,7 @@ table {
 
 tr {
     border-bottom: 1px solid black;
+    cursor: default;
 }
 
 td {

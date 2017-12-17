@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Books</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" th:href="@{main.css}">
 </head>
 <body>
     <h1>Book List</h1>
@@ -11,9 +11,9 @@
     <table>
         <thead>
             <tr>
-                <td>ID</td>
-                <td>Title</td>
-                <td>Publisher</td>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Publisher</th>
             </tr>
         </thead>
         <tbody>
